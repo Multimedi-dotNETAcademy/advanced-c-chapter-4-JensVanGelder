@@ -1,7 +1,7 @@
 ﻿
 namespace Speelkaarten
 {
-    partial class Form1
+    partial class FormSpeelkaarten
     {
         /// <summary>
         /// Required designer variable.

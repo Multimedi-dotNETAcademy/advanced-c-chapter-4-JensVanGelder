@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D381FB86-A149-4726-B10A-BCAB8CBF25FE}</ProjectGuid>
+    <ProjectGuid>{E02B3E44-C076-4EA1-8D85-4836B8D6986B}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>PrijzenMetForeach</RootNamespace>
-    <AssemblyName>PrijzenMetForeach</AssemblyName>
+    <RootNamespace>Student_Organizer</RootNamespace>
+    <AssemblyName>Student Organizer</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -46,16 +46,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FormPrijzenForEach.cs">
+    <Compile Include="FormStudent.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormPrijzenForEach.Designer.cs">
-      <DependentUpon>FormPrijzenForEach.cs</DependentUpon>
+    <Compile Include="FormStudent.Designer.cs">
+      <DependentUpon>FormStudent.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="FormPrijzenForEach.resx">
-      <DependentUpon>FormPrijzenForEach.cs</DependentUpon>
+    <Compile Include="Student.cs" />
+    <EmbeddedResource Include="FormStudent.resx">
+      <DependentUpon>FormStudent.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

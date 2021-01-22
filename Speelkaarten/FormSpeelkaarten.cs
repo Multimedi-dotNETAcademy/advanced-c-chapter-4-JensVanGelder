@@ -4,12 +4,12 @@ using System.Windows.Forms;
 
 namespace Speelkaarten
 {
-    public partial class Form1 : Form
+    public partial class FormSpeelkaarten : Form
     {
         private readonly Speelkaart kaart = new Speelkaart();
         private readonly List<Speelkaart> Deck = new List<Speelkaart>();
 
-        public Form1()
+        public FormSpeelkaarten()
         {
             InitializeComponent();
             kaart.CreateDeck(Deck);

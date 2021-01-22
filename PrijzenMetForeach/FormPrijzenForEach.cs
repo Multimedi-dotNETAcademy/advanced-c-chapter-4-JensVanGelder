@@ -10,11 +10,11 @@ using System.Windows.Forms;
 
 namespace PrijzenMetForeach
 {
-    public partial class Form1 : Form
+    public partial class FormPrijzenForEach : Form
     {
         double[] prices = new double[20];
         List<double> input = new List<double>();
-        public Form1()
+        public FormPrijzenForEach()
         {
             InitializeComponent();
         }

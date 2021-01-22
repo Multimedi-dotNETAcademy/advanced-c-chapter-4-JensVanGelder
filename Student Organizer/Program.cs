@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace PrijzenMetForeach
+namespace Student_Organizer
 {
     static class Program
     {
@@ -16,7 +16,7 @@ namespace PrijzenMetForeach
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormPrijzenForEach());
+            Application.Run(new FormStudent());
         }
     }
 }

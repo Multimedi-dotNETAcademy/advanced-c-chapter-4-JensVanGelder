@@ -1,7 +1,7 @@
 ﻿
 namespace PrijzenMetForeach
 {
-    partial class Form1
+    partial class FormPrijzenForEach
     {
         /// <summary>
         /// Required designer variable.
